@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Download = () => {
   return (
@@ -16,4 +16,4 @@ const Download = () => {
   )
 }
 
-export default Download
+export default Download;
