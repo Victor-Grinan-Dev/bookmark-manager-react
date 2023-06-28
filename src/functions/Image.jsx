@@ -37,7 +37,7 @@ const images = {
 };
 
 const types = {
-  icon:"",
+  arrow:"transition duration-500 ease group-focus:-rotate-180 group-focus:text-red-500 cursor-pointer",
   logo:"",
   logoFooter:"mb-1",
   illustrationHero:"relative z-10 lg:top-24 xl:top-0 overflow-x-visible",

@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 const AppLink = (props) => {
   return (
     <Link
-    activeClassName="active"
-    to={props.linkTo}
+    
+    to={props.linkTo ? props.linkTo : "/"}
     spy={true}
     smooth={true}
     offset={-70}
