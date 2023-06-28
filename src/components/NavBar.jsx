@@ -7,7 +7,6 @@ const NavBar = () => {
     <nav id="navbar" className="container relative mx-auto p-6">
       <div className="flex items-center justify-between space-x-20 my-6">
         <div className="z-30">
-          <img src="images/logo-bookmark.svg" alt="" id="logo" />
           <Image name="logo" type=""/>
         </div>
 
@@ -33,7 +32,6 @@ const NavBar = () => {
             linkedTo="login"
             classes="px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:text-softRed cursor-pointer hover:bg-white"
           />
-
 
         </div>
         <button
