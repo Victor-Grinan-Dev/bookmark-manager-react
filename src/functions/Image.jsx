@@ -39,7 +39,9 @@ const images = {
 const types = {
   icon:"",
   logo:"",
-  illustration:"",
+  logoFooter:"mb-1",
+  illustrationHero:"relative z-10 lg:top-24 xl:top-0 overflow-x-visible",
+  feature:"relative z-10"
 }
 
 const Image = (props) => {
